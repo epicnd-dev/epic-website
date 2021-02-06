@@ -1,0 +1,581 @@
+.desktop {
+    height: 970px;
+    background: #1A1625;
+}
+.desktop-content {
+    position: absolute;
+    width: 1235px;
+    height: 769px;
+    left: calc(50% - 1235px/2 + 17.5px);
+    top: 150px;
+}
+.desktop-title {
+    position: absolute;
+    width: 238px;
+    height: 61px;
+    left: 0px;
+    top: -34px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.desktop-sp21 {
+    position: absolute;
+    width: 1235px;
+    height: 649px;
+    left: calc(50% - 1235px/2);
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.desktop-sp21-header {
+    position: absolute;
+    width: 586px;
+    height: 49px;
+    left: 40px;
+    top: 40px;    
+}
+.desktop-sp21-title {
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 0px;
+    top: -33px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-sp21-open {
+    position: absolute;
+    width: 355px;
+    height: 49px;
+    left: 209px;
+    top: 0px;        
+}
+.desktop-sp21-projects {
+    position: absolute;
+    width: 1155px;
+    height: 470px;
+    left: 40px;
+    top: 139px;
+}
+.desktop-sp21-ge {
+    position: absolute;
+    width: 1155px;
+    height: 470px;
+    left: 0px;
+    top: 0px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.desktop-sp21-ge-title {
+    position: absolute;
+    width: 1085px;
+    height: 44px;
+    left: 35px;
+    top: -1px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.desktop-sp21-ge-company {
+    position: absolute;
+    width: 299px;
+    height: 96px;
+    left: 35px;
+    top: 99px;    
+}
+.desktop-sp21-ge-company-header {
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 0px;
+    top: 0px;    
+}
+.desktop-sp21-ge-company-icon {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 40px;
+    border-radius: 26px;
+}
+.desktop-sp21-ge-company-name {
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    left: 72px;
+    top: -13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.desktop-sp21-ge-company-industry {
+    position: absolute;
+    width: 49px;
+    height: 20px;
+    right: 178px;
+    top: 47px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-sp21-ge-sponsor {
+    position: absolute;
+    width: 399px;
+    height: 96px;
+    right: 35px;
+    top: 99px;  
+}
+.desktop-sp21-ge-sponsor-header {
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 273px;
+    top: 0px;        
+}
+.desktop-sp21-ge-sponsor-photo {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    right: 0px;
+    top: 40px;
+    border-radius: 26px;
+}
+.desktop-sp21-ge-sponsor-name {
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    right: 72px;
+    top: -13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;    
+}
+.desktop-sp21-ge-sponsor-position {
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    right: 72px;
+    top: 47px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;    
+}
+.desktop-sp21-ge-desc {
+    position: absolute;
+    width: 1085px;
+    height: 160px;
+    left: 35px;
+    top: 215px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-sp21-ge-link {
+    position: absolute;
+    width: 148px;
+    height: 20px;
+    left: 972px;
+    top: 415px;
+}
+
+.laptop {
+    height: 989px;
+    background: #1A1625;
+}
+.laptop-content {
+    position: absolute;
+    width: 920px;
+    height: 789px;
+    left: calc(50% - 920px/2);
+    top: 150px;    
+}
+.laptop-title {
+    position: absolute;
+    width: 238px;
+    height: 61px;
+    left: calc(50% - 238px/2 - 341px);
+    top: -34px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.laptop-sp21 {
+    position: absolute;
+    width: 920px;
+    height: 689px;
+    left: 0px;
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.laptop-sp21-header {
+    position: absolute;
+    width: 561px;
+    height: 49px;
+    left: 40px;
+    top: 40px;   
+}
+.laptop-sp21-title {
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 0px;
+    top: -33px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-sp21-open {
+    position: absolute;
+    width: 355px;
+    height: 49px;
+    left: 206px;
+    top: 0px;           
+}
+.laptop-sp21-projects {
+    position: absolute;
+    width: 840px;
+    height: 510px;
+    left: 40px;
+    top: 139px;
+}
+.laptop-sp21-ge {
+    position: absolute;
+    width: 840px;
+    height: 510px;
+    left: 0px;
+    top: 0px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.laptop-sp21-ge-title {
+    position: absolute;
+    width: 1085px;
+    height: 44px;
+    left: 35px;
+    top: -1px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.laptop-sp21-ge-company {
+    position: absolute;
+    width: 299px;
+    height: 96px;
+    left: 35px;
+    top: 99px;    
+}
+.laptop-sp21-ge-company-header {
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 0px;
+    top: 0px;    
+}
+.laptop-sp21-ge-company-icon {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 40px;
+    border-radius: 26px;
+}
+.laptop-sp21-ge-company-name {
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    left: 72px;
+    top: -13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.laptop-sp21-ge-company-industry {
+    position: absolute;
+    width: 49px;
+    height: 20px;
+    right: 178px;
+    top: 47px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-sp21-ge-sponsor {
+    position: absolute;
+    width: 399px;
+    height: 96px;
+    right: 35px;
+    top: 99px;  
+}
+.laptop-sp21-ge-sponsor-header {
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 273px;
+    top: 0px;        
+}
+.laptop-sp21-ge-sponsor-photo {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    right: 0px;
+    top: 40px;
+    border-radius: 26px;
+}
+.laptop-sp21-ge-sponsor-name {
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    right: 72px;
+    top: -13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;    
+}
+.laptop-sp21-ge-sponsor-position {
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    right: 72px;
+    top: 47px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;    
+}
+.laptop-sp21-ge-desc {
+    position: absolute;
+    height: 200px;
+    left: 35px;
+    right: 35px;
+    top: 215px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-sp21-ge-link {
+    position: absolute;
+    width: 148px;
+    height: 20px;
+    left: 657px;
+    top: 455px;    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1019px) {
+.desktop { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1439px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1440px) {
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
