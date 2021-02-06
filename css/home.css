@@ -1,0 +1,686 @@
+.desktop {
+    height: 970px;
+}
+.desktop-content {
+    position: absolute;
+    width: 1200px;
+    height: 820px;
+    left: calc(50% - 1200px/2);
+    top: 100px;        
+}
+.desktop-banner {
+    position: absolute;
+    width: 1200px;
+    height: 325px;
+    left: 0px;
+    top: 0px;    
+}
+.desktop-title {
+    position: absolute;
+    width: 838.33px;
+    height: 60.83px;
+    left: 0px;
+    top: 318px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;  
+}
+.desktop-school {
+    position: absolute;
+    width: 250px;
+    height: 60.83px;
+    right: 0px;
+    top: 318px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+}
+.desktop-mission {
+    position: absolute;
+    width: 327px;
+    height: 387px;
+    left: 0px;
+    top: 433px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.desktop-mission-title {
+    position: absolute;
+    width: 78.33px;
+    height: 30.83px;
+    left: calc(50% - 78.33px/2 - 0.42px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.desktop-mission-text {
+    position: absolute;
+    width: 244.17px;
+    height: 210px;
+    left: 41.67px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;;    
+}
+.desktop-about {
+    position: absolute;
+    width: 848px;
+    height: 387px;
+    right: 0px;
+    top: 433px;
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.desktop-about-title {
+    position: absolute;
+    width: 66.67px;
+    height: 30.83px;
+    left: calc(50% - 66.67px/2 - 0.42px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.desktop-about-text {
+    position: absolute;
+    width: 764.17px;
+    height: 240px;
+    left: 41.67px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;        
+}
+
+.laptop {
+    height: 1059px;
+}
+.laptop-content {
+    position: absolute;
+    width: 920px;
+    height: 913px;
+    left: calc(50% - 920px/2);
+    top: 96px;    
+}
+.laptop-banner {
+    position: absolute;
+    width: 920px;
+    height: 325px;
+    left: 0px;
+    top: 0px;    
+}
+.laptop-title {
+    position: absolute;
+    width: 671px;
+    height: 49px;
+    left: 0px;
+    top: 329px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.laptop-school {
+    position: absolute;
+    width: 200px;
+    height: 49px;
+    left: calc(50% - 200px/2 + 360px);
+    top: 329px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.laptop-mission {
+    position: absolute;
+    width: 281px;
+    height: 477px;
+    left: 0px;
+    top: 436px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.laptop-mission-title {
+    position: absolute;
+    width: 78.33px;
+    height: 30.83px;
+    left: calc(50% - 78.33px/2 - 0.17px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.laptop-mission-text {
+    position: absolute;
+    width: 201px;
+    height: 300px;
+    left: calc(50% - 201px/2);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.laptop-about {
+    position: absolute;
+    width: 624px;
+    height: 477px;
+    left: 296px;
+    top: 436px;
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.laptop-about-title {
+    position: absolute;
+    width: 66.67px;
+    height: 30.83px;
+    left: calc(50% - 66.67px/2 - 0.67px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.laptop-about-text {
+    position: absolute;
+    width: 544px;
+    height: 330px;
+    left: calc(50% - 544px/2);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;   
+}
+.tablet {
+    height: 1335px;
+}
+.tablet-content {
+    position: absolute;
+    width: 688px;
+    height: 1199px;
+    left: calc(50% - 688px/2);
+    top: 96px;     
+}
+.tablet-banner {
+    position: absolute;
+    width: 688px;
+    height: 325px;
+    left: 0px;
+    top: 0px;    
+}
+.tablet-title {
+    position: absolute;
+    width: 671px;
+    height: 49px;
+    left: 0px;
+    top: 329px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.tablet-school {
+    position: absolute;
+    width: 200px;
+    height: 49px;
+    left: 0px;
+    top: 378px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.tablet-mission {
+    position: absolute;
+    width: 687px;
+    height: 237px;
+    left: 1px;
+    top: 485px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 25px;
+}
+.tablet-mission-title {
+    position: absolute;
+    width: 78.33px;
+    height: 30.83px;
+    left: calc(50% - 78.33px/2 - 0.17px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.tablet-mission-text {
+    position: absolute;
+    width: 607px;
+    height: 90px;
+    left: calc(50% - 607px/2);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;   
+}
+.tablet-about {
+    position: absolute;
+    width: 688px;
+    height: 447px;
+    left: 0px;
+    top: 752px;
+    
+    background: #211F2A;
+    border-radius: 25px;
+}
+.tablet-about-title {
+    position: absolute;
+    width: 66.67px;
+    height: 30.83px;
+    left: calc(50% - 66.67px/2 - 0.67px);
+    top: 13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.tablet-about-text {
+    position: absolute;
+    width: 608px;
+    height: 300px;
+    left: calc(50% - 608px/2);
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;    
+}
+.mobile {
+    height: 1301px;
+}
+.mobile-content {
+    position: absolute;
+    width: 280px;
+    height: 1185px;
+    left: calc(50% - 280px/2);
+    top: 96px;        
+}
+.mobile-banner {
+    position: absolute;
+    width: 280px;
+    height: 191px;
+    left: calc(50% - 280px/2);
+    top: 0px;
+}
+.mobile-title {
+    position: absolute;
+    width: 261px;
+    height: 68px;
+    left: calc(50% - 261px/2 - 9.5px);
+    top: 194px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.mobile-school {
+    position: absolute;
+    width: 140px;
+    height: 34px;
+    left: calc(50% - 140px/2 - 70px);
+    top: 262px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+}
+.mobile-mission {
+    position: absolute;
+    width: 280px;
+    height: 235px;
+    left: calc(50% - 280px/2);
+    top: 430px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 25px;
+}
+.mobile-mission-title {
+    position: absolute;
+    width: 78.33px;
+    height: 30.83px;
+    left: calc(50% - 78.33px/2 - 0.67px);
+    top: -2px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+.mobile-mission-text {
+    position: absolute;
+    width: 240px;
+    height: 144px;
+    left: calc(50% - 240px/2);
+    top: 45px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;       
+}
+.mobile-about {
+    position: absolute;
+    width: 280px;
+    height: 589px;
+    left: calc(50% - 280px/2);
+    top: 693px;
+    
+    background: #211F2A;
+    border-radius: 25px;
+}
+.mobile-about-title {
+    position: absolute;
+    width: 66.67px;
+    height: 30.83px;
+    left: calc(50% - 66.67px/2 - 0.67px);
+    top: -2px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.mobile-about-text {
+    position: absolute;
+    width: 240px;
+    height: 504px;
+    left: calc(50% - 240px/2);
+    top: 45px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+}
+
+@media screen and (max-width: 767px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1019px) {
+.desktop { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1439px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1440px) {
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}

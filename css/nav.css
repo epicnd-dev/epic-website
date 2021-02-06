@@ -1,0 +1,381 @@
+.desktop-bar {
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    top: 0px;
+    left: 0px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, rgba(154, 118, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%), #211F2A;
+    /* Dark UI / bigger box shadow */
+    
+    box-shadow: 1px 4px 20px #000000;
+}
+.desktop-bar-logo {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 9px;
+    top: 2.5px;
+}
+.desktop-bar-apply {
+    position: absolute;
+    width: 74px;
+    height: 27px;
+    right: 17px;
+    top: 21px;
+}
+.desktop-menu {
+    position: absolute;
+    width: 526px;
+    height: 69px;
+    left: calc(50.00% - 263px);
+    top: 0px;
+}
+.desktop-home {
+    position: absolute;
+    width: 83px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+}
+.desktop-home-content {
+    position: absolute;
+    width: 83px;
+    height: 47px;
+    left: 0px;
+    top: 0px;    
+}
+.desktop-home-text {
+    position: absolute;
+    width: 49px;
+    height: 21px;
+    left: 0px;
+    top: 4px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #FFFFFF;
+}
+.desktop-home:hover .desktop-home-text {
+    font-weight: bold;
+}
+.desktop-home-icon {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 61px;
+    top: 26px;    
+}
+.desktop-home-active {
+    position: absolute;
+    width: 83px;
+    height: 5px;
+    left: calc(50% - 83px/2);
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.desktop-leadership {
+    position: absolute;
+    width: 119px;
+    height: 69px;
+    left: 138px;
+    top: 0px;    
+}
+.desktop-leadership-content {
+    position: absolute;
+    width: 119px;
+    height: 47px;
+    left: 0px;
+    top: 0px;    
+}
+.desktop-leadership-text {
+    position: absolute;
+    width: 89px;
+    height: 21px;
+    left: 0px;
+    top: 4px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.desktop-leadership:hover .desktop-leadership-text {
+    font-weight: bold;
+    left: -0.5px;
+}
+.desktop-leadership-active {
+    position: absolute;
+    width: 119px;
+    height: 5px;
+    left: calc(50% - 119px/2);
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.desktop-leadership-icon {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 101px;
+    top: 26px;
+}
+.desktop-leadership-active {
+    position: absolute;
+    width: 119px;
+    height: 5px;
+    left: calc(50% - 119px/2);
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.desktop-projects {
+    position: absolute;
+    width: 96px;
+    height: 69px;
+    left: 312px;
+    top: 0px; 
+}
+.desktop-projects-content {
+    position: absolute;
+    width: 96px;
+    height: 47px;
+    left: 0px;
+    top: 0px; 
+}
+.desktop-projects-text {
+    position: absolute;
+    width: 66px;
+    height: 21px;
+    left: 0px;
+    top: 4px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.desktop-projects:hover .desktop-projects-text {
+    font-weight: bold;
+    left: -0.5px;
+}
+.desktop-projects-icon {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 78px;
+    top: 26px;
+}
+.desktop-projects-active {
+    position: absolute;
+    width: 96px;
+    height: 5px;
+    left: calc(50% - 96px/2);
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px; 
+}
+.desktop-faq {
+    position: absolute;
+    width: 63px;
+    height: 69px;
+    left: 463px;
+    top: 0px;
+}
+.desktop-faq-content {
+    position: absolute;
+    width: 63px;
+    height: 47px;
+    left: 0px;
+    top: 0px;
+}
+.desktop-faq-text {
+    position: absolute;
+    width: 33px;
+    height: 21px;
+    left: 0px;
+    top: 4px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.desktop-faq:hover .desktop-faq-text {
+    font-weight: bold;
+}
+.desktop-faq-icon {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 45px;
+    top: 26px;    
+}
+.desktop-faq-active {
+    position: absolute;
+    width: 63px;
+    height: 5px;
+    left: calc(50% - 63px/2);
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.mobile {
+    height: 1223px;
+}
+.mobile-bar {
+    position: absolute;
+    height: 69px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, rgba(154, 118, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%), #211F2A;
+    /* Dark UI / bigger box shadow */
+    
+    box-shadow: 1px 4px 20px #000000;
+}
+.mobile-menu {
+    position: absolute;
+    width: 143px;
+    height: 69px;
+    left: 40px;
+    top: 0px;     
+}
+.mobile-home {
+    position: absolute;
+    width: 22px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+}
+.mobile-home-icon {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 0px;
+    top: 24px;    
+}
+.mobile-home-active {
+    position: absolute;
+    width: 22px;
+    height: 5px;
+    left: 0px;
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.mobile-leadership {
+    position: absolute;
+    width: 18px;
+    height: 69px;
+    left: 44.5px;
+    top: 0px;
+}
+.mobile-leadership-icon {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 0px;
+    top: 24px;    
+}
+.mobile-leadership-active {
+    position: absolute;
+    width: 19px;
+    height: 5px;
+    left: 0px;
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.mobile-projects {
+    position: absolute;
+    width: 18px;
+    height: 69px;
+    left: 85px;
+    top: 0px;    
+}
+.mobile-projects-icon {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 0px;
+    top: 24px;    
+}
+.mobile-projects-active {
+    position: absolute;
+    width: 16px;
+    height: 5px;
+    left: 0px;
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.mobile-faq {
+    position: absolute;
+    width: 18px;
+    height: 69px;
+    left: 125.5px;
+    top: 0px;    
+}
+.mobile-faq-icon {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 0px;
+    top: 24px;    
+}
+.mobile-faq-active {
+    position: absolute;
+    width: 18px;
+    height: 5px;
+    left: 0px;
+    top: 64px;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.mobile-apply {
+    position: absolute;
+    width: 74px;
+    height: 27px;
+    right: 20px;
+    top: 21px;      
+}
