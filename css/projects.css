@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Legend M54";
     src: url("assets/LegendM54.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
   }
 
 .desktop {
