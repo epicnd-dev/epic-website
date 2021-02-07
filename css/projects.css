@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Legend M54";
+    src: url("assets/LegendM54.ttf") format("truetype");
+  }
+
 .desktop {
     height: 970px;
     background: #1A1625;
@@ -546,6 +551,566 @@
     top: 455px;    
 }
 
+.tablet {
+    height: 1160px;
+    background: #1A1625;
+}
+.tablet-content {
+    position: absolute;
+    width: 690px;
+    height: 960px;
+    left: calc(50% - 690px/2 + 1px);
+    top: 150px;       
+}
+.tablet-title {
+    position: absolute;
+    left: 0%;
+    right: 70.58%;
+    top: -3px;
+    bottom: 93.65%;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;       
+}
+.tablet-sp21 {
+    position: absolute;
+    width: 690px;
+    height: 860px;
+    left: calc(50% - 690px/2);
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 25px;
+}
+.tablet-sp21-header {
+    position: absolute;
+    width: 561px;
+    height: 49px;
+    left: 40px;
+    top: 40px;   
+}
+.tablet-sp21-title {
+    position: absolute;
+    width: 198px;
+    height: 49px;
+    left: 0px;
+    top: -33px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.tablet-sp21-open {
+    position: absolute;
+    width: 355px;
+    height: 49px;
+    left: 206px;
+    top: 0px;           
+}
+.tablet-sp21-projects {
+    position: absolute;
+    width: 610px;
+    height: 681px;
+    left: 40px;
+    top: 139px;    
+}
+.tablet-sp21-ge {
+    position: absolute;
+    width: 610px;
+    height: 681px;
+    left: 0px;
+    top: 0px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.tablet-sp21-ge-title {
+    position: absolute;
+    width: 1085px;
+    height: 44px;
+    left: 35px;
+    top: -1px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.tablet-sp21-ge-company {
+    position: absolute;
+    width: 299px;
+    height: 96px;
+    left: 35px;
+    top: 99px;    
+}
+.tablet-sp21-ge-company-header {
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 0px;
+    top: 0px;    
+}
+.tablet-sp21-ge-company-icon {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 40px;
+    border-radius: 26px;
+}
+.tablet-sp21-ge-company-name {
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    left: 72px;
+    top: -13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.tablet-sp21-ge-company-industry {
+    position: absolute;
+    width: 49px;
+    height: 20px;
+    right: 178px;
+    top: 47px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.tablet-sp21-ge-sponsor {
+    position: absolute;
+    width: 399px;
+    height: 96px;
+    right: 176px;
+    top: 220px;     
+}
+.tablet-sp21-ge-sponsor-header {
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 0px;
+    top: 0px;        
+}
+.tablet-sp21-ge-sponsor-photo {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    right: 347px;
+    top: 40px;
+    border-radius: 26px;
+}
+.tablet-sp21-ge-sponsor-name {
+    position: absolute;
+    width: 330px;
+    height: 44px;
+    right: 0px;
+    top: -13px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;    
+}
+.tablet-sp21-ge-sponsor-position {
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    right: 166px;
+    top: 47px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;    
+}
+.tablet-sp21-ge-desc {
+    position: absolute;
+    height: 260px;
+    left: 35px;
+    right: 35px;
+    top: 321px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.tablet-sp21-ge-link {
+    position: absolute;
+    width: 148px;
+    height: 20px;
+    left: 427px;
+    top: 626px;    
+}
+
+.mobile {
+    height: 1088px;
+    background: #1A1625;
+}
+.mobile-content {
+    position: absolute;
+    width: 280px;
+    height: 918px;
+    left: calc(50% - 280px/2);
+    top: 150px;    
+}
+.mobile-title {
+    position: absolute;
+    width: 203px;
+    height: 61px;
+    left: 39px;
+    top: -34px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;       
+}
+.mobile-sp21 {
+    position: absolute;
+    width: 280px;
+    height: 818px;
+    left: calc(50% - 280px/2);
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 20px;
+}
+.mobile-sp21-title {
+    position: absolute;
+    width: 140px;
+    height: 34px;
+    left: 20px;
+    top: -2px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.mobile-sp21-open {
+    position: absolute;
+    width: 243px;
+    height: 34px;
+    left: 20px;
+    top: 32px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;        
+}
+.mobile-sp21-projects {
+    position: absolute;
+    width: 240px;
+    height: 690px;
+    left: 20px;
+    top: 108px;    
+}
+.mobile-sp21-ge {
+    position: absolute;
+    width: 240px;
+    height: 690px;
+    left: 0px;
+    top: 0px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 10px;
+}
+.mobile-sp21-ge-title {
+    position: absolute;
+    width: 220px;
+    height: 68px;
+    left: 10px;
+    top: -17px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.mobile-sp21-ge-company {
+    position: absolute;
+    width: 159px;
+    height: 96px;
+    left: 10px;
+    top: 103px;        
+}
+.mobile-sp21-ge-company-header {
+    position: absolute;
+    width: 145px;
+    height: 26px;
+    left: 0px;
+    top: 0px;    
+}
+.mobile-sp21-ge-company-icon {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 40px;
+    border-radius: 26px;
+}
+.mobile-sp21-ge-company-name {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    left: 62px;
+    top: 27px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.mobile-sp21-ge-company-industry {
+    position: absolute;
+    width: 37px;
+    height: 15px;
+    left: 62px;
+    top: 47px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.mobile-sp21-ge-sponsor {
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    right: 24px;
+    top: 224px;      
+}
+.mobile-sp21-ge-sponsor-header {
+    position: absolute;
+    width: 126px;
+    height: 26px;
+    left: 0px;
+    top: 0px;        
+}
+.mobile-sp21-ge-sponsor-photo {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 0px;
+    top: 40px;
+    border-radius: 26px;
+}
+.mobile-sp21-ge-sponsor-name {
+    position: absolute;
+    width: 146px;
+    height: 20px;
+    left: 60px;
+    top: 27px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;        
+}
+.mobile-sp21-ge-sponsor-position {
+    position: absolute;
+    width: 121px;
+    height: 15px;
+    left: 60px;
+    top: 47.5px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    
+    text-align: right;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;    
+}
+.mobile-sp21-ge-desc {
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    left: 10px;
+    top: 333px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.mobile-sp21-ge-link {
+    position: absolute;
+    width: 112px;
+    height: 15px;
+    left: 118px;
+    top: 665px;
+}
+
+@media screen and (max-width: 767px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
 @media screen and (min-width: 768px) and (max-width: 1019px) {
 .desktop { 
     display: none;
