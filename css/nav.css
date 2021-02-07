@@ -26,17 +26,17 @@
 }
 .desktop-menu {
     position: absolute;
-    width: 526px;
+    width: 582px;
     height: 69px;
-    left: calc(50.00% - 263px);
-    top: 0px;
+    left: calc(50% - 582px/2);
+    top: 0px;            
 }
 .desktop-home {
     position: absolute;
     width: 83px;
     height: 69px;
     left: 0px;
-    top: 0px;
+    top: 0px;    
 }
 .desktop-home-content {
     position: absolute;
@@ -57,8 +57,14 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
     
     color: #FFFFFF;
+    
 }
 .desktop-home:hover .desktop-home-text {
     font-weight: bold;
@@ -68,7 +74,7 @@
     width: 22px;
     height: 21px;
     left: 61px;
-    top: 26px;    
+    top: 26px;        
 }
 .desktop-home-active {
     position: absolute;
@@ -200,23 +206,24 @@
     background: #FFFFFF;
     border-radius: 3px; 
 }
-.desktop-faq {
+.desktop-contact {
     position: absolute;
-    width: 63px;
+    width: 119px;
     height: 69px;
     left: 463px;
-    top: 0px;
+    top: 0px;    
 }
-.desktop-faq-content {
+.desktop-contact-content {
     position: absolute;
-    width: 63px;
+    width: 119px;
     height: 47px;
     left: 0px;
     top: 0px;
+        
 }
-.desktop-faq-text {
+.desktop-contact-text {
     position: absolute;
-    width: 33px;
+    width: 89px;
     height: 21px;
     left: 0px;
     top: 4px;
@@ -234,29 +241,63 @@
     
     color: #FFFFFF;
 }
-.desktop-faq:hover .desktop-faq-text {
+.desktop-contact:hover .desktop-contact-text {
     font-weight: bold;
 }
-.desktop-faq-icon {
+.desktop-contact-icon {
     position: absolute;
     width: 18px;
     height: 21px;
-    left: 45px;
+    left: 101px;
     top: 26px;    
 }
-.desktop-faq-active {
+.desktop-contact-active {
     position: absolute;
-    width: 63px;
+    width: 119px;
     height: 5px;
-    left: calc(50% - 63px/2);
+    left: calc(50% - 119px/2);
     top: 64px;
     
     background: #FFFFFF;
     border-radius: 3px;
 }
-.mobile {
-    height: 1223px;
+.tablet-menu {
+    position: absolute;
+    width: 522px;
+    height: 69px;
+    left: calc(50% - 522px/2 + 0.5px);
+    top: 0px;    
 }
+.tablet-home {
+    position: absolute;
+    width: 83px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+}
+.tablet-leadership {
+    position: absolute;
+    width: 119px;
+    height: 69px;
+    left: 118px;
+    top: 0px;    
+}
+.tablet-projects {
+    position: absolute;
+    width: 96px;
+    height: 69px;
+    left: 272px;
+    top: 0px;    
+}
+.tablet-contact {
+    position: absolute;
+    width: 119px;
+    height: 69px;
+    left: 403px;
+    top: 0px;    
+}
+
+
 .mobile-bar {
     position: absolute;
     height: 69px;
@@ -348,21 +389,21 @@
     background: #FFFFFF;
     border-radius: 3px;
 }
-.mobile-faq {
+.mobile-contact {
     position: absolute;
     width: 18px;
     height: 69px;
     left: 125.5px;
     top: 0px;    
 }
-.mobile-faq-icon {
+.mobile-contact-icon {
     position: absolute;
     width: 18px;
     height: 21px;
     left: 0px;
     top: 24px;    
 }
-.mobile-faq-active {
+.mobile-contact-active {
     position: absolute;
     width: 18px;
     height: 5px;
