@@ -1,0 +1,1224 @@
+@font-face {
+    font-family: "Legend M54";
+    src: url("../assets/LegendM54.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.desktop {
+    height: 2439px;
+    background: #1A1625;
+}
+.desktop-content {
+    position: absolute;
+    width: 1200px;
+    height: 2239px;
+    left: calc(50% - 1200px/2);
+    top: 150px;        
+}
+.desktop-back-button {
+    position: absolute;
+    width: 40px;
+    height: 28.9px;
+    left: 0px;
+    top: 13.55px;
+}
+.desktop-title {
+    position: absolute;
+    left: 5%;
+    right: 48.5%;
+    top: -5px;
+    bottom: 97.54%;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.desktop-details {
+    position: absolute;
+    width: 1200px;
+    height: 2139px;
+    left: calc(50% - 1200px/2);
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.desktop-status {
+    position: absolute;
+    width: 1120px;
+    height: 234px;
+    left: 40px;
+    top: 40px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.desktop-status-header {
+    position: absolute;
+    width: 104px;
+    height: 46px;
+    left: 40px;
+    top: 40px;
+}
+.desktop-status-details {
+    position: absolute;
+    width: 1040px;
+    height: 44px;
+    left: 40px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.desktop-status-apply {
+    position: absolute;
+    width: 59px;
+    height: 20px;
+    left: 1021px;
+    top: 174px;    
+}
+.desktop-company {
+    position: absolute;
+    width: 1120px;
+    height: 299px;
+    left: 40px;
+    top: 324px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.desktop-company-header {
+    position: absolute;
+    width: 327px;
+    height: 50px;
+    left: 40px;
+    top: 40px;    
+}
+.desktop-company-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 40px;
+    top: 110px;
+    border-radius: 34.5px;
+}
+.desktop-company-name {
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    left: 129px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.desktop-company-industry {
+    position: absolute;
+    width: 49px;
+    height: 20px;
+    right: 942px;
+    top: 138px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-company-bio {
+    position: absolute;
+    width: 1040px;
+    height: 60px;
+    left: 40px;
+    top: 199px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-sponsor {
+    position: absolute;
+    width: 1120px;
+    height: 319px;
+    left: 40px;
+    top: 673px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.desktop-sponsor-header {
+    position: absolute;
+    width: 327px;
+    height: 50px;
+    left: 40px;
+    top: 40px;    
+}
+.desktop-sponsor-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 40px;
+    top: 110px;
+    border-radius: 34.5px;
+}
+.desktop-sponsor-name {
+    position: absolute;
+    width: 328px;
+    height: 44px;
+    left: 129px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.desktop-sponsor-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 468px;
+    top: 124px;    
+}
+.desktop-sponsor-position {
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    left: 129px;
+    top: 138px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-sponsor-bio {
+    position: absolute;
+    width: 1040px;
+    height: 80px;
+    left: 40px;
+    top: 199px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-leaders {
+    position: absolute;
+    width: 1120px;
+    height: 597px;
+    left: 40px;
+    top: 1042px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.desktop-leaders-header {
+    position: absolute;
+    width: 213px;
+    height: 50px;
+    left: 40px;
+    top: 40px;
+}
+.desktop-leaders-eric {
+    position: absolute;
+    width: 1040px;
+    height: 129px;
+    left: 40px;
+    top: 110px;    
+}
+.desktop-leaders-eric-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px;
+}
+.desktop-leaders-eric-name {
+    position: absolute;
+    width: 238px;
+    height: 44px;
+    left: 89px;
+    top: -29px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.desktop-leaders-eric-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 338px;
+    top: 14px;    
+}
+.desktop-leaders-eric-major {
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    right: 744px;
+    top: 28px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-leaders-eric-bio {
+    position: absolute;
+    width: 1040px;
+    height: 40px;
+    left: 0px;
+    top: 68px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-leaders-jake {
+    position: absolute;
+    width: 1040px;
+    height: 129px;
+    left: 40px;
+    top: 269px;        
+}
+.desktop-leaders-jake-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px;
+}
+.desktop-leaders-jake-name {
+    position: absolute;
+    width: 210px;
+    height: 44px;
+    left: 89px;
+    top: -29px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.desktop-leaders-jake-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 307px;
+    top: 14px;       
+}
+.desktop-leaders-jake-major {
+    position: absolute;
+    width: 214px;
+    height: 20px;
+    right: 737px;
+    top: 28px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-leaders-jake-bio {
+    position: absolute;
+    width: 1040px;
+    height: 40px;
+    left: 0px;
+    top: 68px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-leaders-gavin {
+    position: absolute;
+    width: 1040px;
+    height: 129px;
+    left: 40px;
+    top: 428px;    
+}
+.desktop-leaders-gavin-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px;
+}
+.desktop-leaders-gavin-name {
+    position: absolute;
+    width: 195px;
+    height: 44px;
+    left: 89px;
+    top: -29px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.desktop-leaders-gavin-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 295px;
+    top: 14px;       
+}
+.desktop-leaders-gavin-major {
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    right: 744px;
+    top: 28px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-leaders-gavin-bio {
+    position: absolute;
+    width: 1040px;
+    height: 40px;
+    left: 0px;
+    top: 68px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.desktop-desc {
+    position: absolute;
+    width: 1120px;
+    height: 410px;
+    left: 40px;
+    top: 1689px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.desktop-desc-header {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    left: 40px;
+    top: 40px;    
+}
+.desktop-desc-content {
+    position: absolute;
+    width: 1040px;
+    height: 260px;
+    left: 40px;
+    top: 89px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+
+.laptop {
+    height: 2569px;
+    background: #1A1625;
+}
+.laptop-content {
+    position: absolute;
+    width: 920px;
+    height: 2379px;
+    left: calc(50% - 920px/2);
+    top: 150px;        
+}
+.laptop-back-button {
+    position: absolute;
+    left: 0%;
+    right: 95.65%;
+    top: 0.63%;
+    bottom: 98.02%;
+    
+    /* Accent */
+    
+    background: #9A76FF;
+}
+.laptop-title {
+    position: absolute;
+    left: 6.52%;
+    right: 32.83%;
+    top: -5px;
+    bottom: 97.44%;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+.laptop-details {
+    position: absolute;
+    width: 1200px;
+    height: 2139px;
+    left: calc(50% - 1200px/2);
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.laptop-status {
+    position: absolute;
+    width: 1120px;
+    height: 234px;
+    left: 40px;
+    top: 40px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.laptop-status-header {
+    position: absolute;
+    width: 104px;
+    height: 46px;
+    left: 40px;
+    top: 40px;
+}
+.laptop-status-details {
+    position: absolute;
+    width: 1040px;
+    height: 44px;
+    left: 40px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.laptop-status-apply {
+    position: absolute;
+    width: 59px;
+    height: 20px;
+    left: 1021px;
+    top: 174px;    
+}
+.laptop-company {
+    position: absolute;
+    width: 1120px;
+    height: 299px;
+    left: 40px;
+    top: 324px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.laptop-company-header {
+    position: absolute;
+    width: 327px;
+    height: 50px;
+    left: 40px;
+    top: 40px;    
+}
+.laptop-company-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 40px;
+    top: 110px;
+    border-radius: 34.5px;
+}
+.laptop-company-name {
+    position: absolute;
+    width: 145px;
+    height: 44px;
+    left: 129px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.laptop-company-industry {
+    position: absolute;
+    width: 49px;
+    height: 20px;
+    right: 942px;
+    top: 138px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-company-bio {
+    position: absolute;
+    width: 1040px;
+    height: 60px;
+    left: 40px;
+    top: 199px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-sponsor {
+    position: absolute;
+    width: 1120px;
+    height: 319px;
+    left: 40px;
+    top: 673px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.laptop-sponsor-header {
+    position: absolute;
+    width: 327px;
+    height: 50px;
+    left: 40px;
+    top: 40px;    
+}
+.laptop-sponsor-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 40px;
+    top: 110px;
+    border-radius: 34.5px;
+}
+.laptop-sponsor-name {
+    position: absolute;
+    width: 328px;
+    height: 44px;
+    left: 129px;
+    top: 81px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.laptop-sponsor-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 468px;
+    top: 124px;    
+}
+.laptop-sponsor-position {
+    position: absolute;
+    width: 161px;
+    height: 20px;
+    left: 129px;
+    top: 138px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-sponsor-bio {
+    position: absolute;
+    width: 1040px;
+    height: 80px;
+    left: 40px;
+    top: 199px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-leaders {
+    position: absolute;
+    width: 1120px;
+    height: 597px;
+    left: 40px;
+    top: 1042px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.laptop-leaders-header {
+    position: absolute;
+    width: 213px;
+    height: 50px;
+    left: 40px;
+    top: 40px;
+}
+.laptop-leaders-eric {
+    position: absolute;
+    width: 1040px;
+    height: 129px;
+    left: 40px;
+    top: 110px;    
+}
+.laptop-leaders-eric-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px;
+}
+.laptop-leaders-eric-name {
+    position: absolute;
+    width: 238px;
+    height: 44px;
+    left: 89px;
+    top: -29px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.laptop-leaders-eric-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 338px;
+    top: 14px;    
+}
+.laptop-leaders-eric-major {
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    right: 744px;
+    top: 28px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-leaders-eric-bio {
+    position: absolute;
+    width: 1040px;
+    height: 40px;
+    left: 0px;
+    top: 68px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-leaders-jake {
+    position: absolute;
+    width: 1040px;
+    height: 129px;
+    left: 40px;
+    top: 269px;        
+}
+.laptop-leaders-jake-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px;
+}
+.laptop-leaders-jake-name {
+    position: absolute;
+    width: 210px;
+    height: 44px;
+    left: 89px;
+    top: -29px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.laptop-leaders-jake-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 307px;
+    top: 14px;       
+}
+.laptop-leaders-jake-major {
+    position: absolute;
+    width: 214px;
+    height: 20px;
+    right: 737px;
+    top: 28px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-leaders-jake-bio {
+    position: absolute;
+    width: 1040px;
+    height: 40px;
+    left: 0px;
+    top: 68px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-leaders-gavin {
+    position: absolute;
+    width: 1040px;
+    height: 129px;
+    left: 40px;
+    top: 428px;    
+}
+.laptop-leaders-gavin-photo {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px;
+}
+.laptop-leaders-gavin-name {
+    position: absolute;
+    width: 195px;
+    height: 44px;
+    left: 89px;
+    top: -29px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* High Contrast */
+    
+    color: #FFFFFF;
+}
+.laptop-leaders-gavin-linkedin {
+    position: absolute;
+    width: 22.17px;
+    height: 22.17px;
+    left: 295px;
+    top: 14px;       
+}
+.laptop-leaders-gavin-major {
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    right: 744px;
+    top: 28px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-leaders-gavin-bio {
+    position: absolute;
+    width: 1040px;
+    height: 40px;
+    left: 0px;
+    top: 68px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.laptop-desc {
+    position: absolute;
+    width: 1120px;
+    height: 410px;
+    left: 40px;
+    top: 1689px;
+    
+    /* L3 */
+    
+    background: #26242E;
+    border-radius: 20px;
+}
+.laptop-desc-header {
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    left: 40px;
+    top: 40px;    
+}
+.laptop-desc-content {
+    position: absolute;
+    width: 1040px;
+    height: 260px;
+    left: 40px;
+    top: 89px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+
+@media screen and (max-width: 767px) {
+.desktop { 
+    visibility: hidden;
+    }
+.tablet { 
+    visibility: hidden;
+    }
+.laptop { 
+    visibility: hidden;
+    }
+.mobile {
+    visibility: visible;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1019px) {
+.desktop { 
+    visibility: hidden;
+    }
+.tablet { 
+    visibility: hidden;
+    }
+.laptop { 
+    visibility: visible;
+    }
+.mobile {
+    visibility: hidden;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1439px) {
+.desktop { 
+    visibility: hidden;
+    }
+.tablet { 
+    visibility: visible;
+    }
+.laptop { 
+    visibility: hidden;
+    }
+.mobile {
+    visibility: hidden;
+    }
+}
+@media screen and (min-width: 1440px) {
+.desktop { 
+    visibility: visible;
+    }
+.tablet { 
+    visibility: hidden;
+    }
+.laptop { 
+    visibility: hidden;
+    }
+.mobile {
+    visibility: hidden;
+    }
+}
