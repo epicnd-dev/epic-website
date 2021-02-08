@@ -1271,16 +1271,16 @@
 }
 .mobile-title {
     position: absolute;
-    width: 238px;
-    height: 61px;
-    left: calc(50% - 238px/2);
+    width: 172px;
+    height: 44px;
+    left: 0;
     top: -34px;
     
     font-family: Legend M54;
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
-    line-height: 61px;
+    line-height: 44px;
     /* identical to box height */
     
     display: flex;
@@ -1289,6 +1289,7 @@
     letter-spacing: 0.015em;
     
     color: #FFFFFF;
+    
 }
 .mobile-brooke-card {
     position: absolute;

@@ -1,0 +1,585 @@
+@font-face {
+    font-family: "Legend M54";
+    src: url("../assets/LegendM54.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@media screen and (max-width: 767px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1019px) {
+.desktop { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1439px) {
+.desktop { 
+    display: none;
+    }
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+}
+@media screen and (min-width: 1440px) {
+.tablet { 
+    display: none;
+    }
+.mobile { 
+    display: none;
+    }
+.laptop { 
+    display: none;
+    }
+}
+
+.desktop {
+    height: 970px;
+    background: #1A1625;
+}
+.desktop-content {
+    position: absolute;
+    width: 1200px;
+    height: 308px;
+    left: calc(50% - 1200px/2);
+    top: 150px;    
+}
+.desktop-title {
+    position: absolute;
+    width: 243px;
+    height: 61px;
+    left: 0px;
+    top: -34px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+}
+.desktop-contact-info {
+    position: absolute;
+    width: 1200px;
+    height: 208px;
+    left: calc(50% - 1200px/2);
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.desktop-email-header {
+    position: absolute;
+    width: 130px;
+    height: 44px;
+    left: 40px;
+    top: 11px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.desktop-email {
+    position: absolute;
+    width: 225px;
+    height: 44px;
+    left: 190px;
+    top: 11px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    /* Low Contrast */
+
+    color: #6C6C6C;
+}
+.desktop-listserv-header {
+    position: absolute;
+    width: 361px;
+    height: 44px;
+    left: 40px;
+    top: 95px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.desktop-listserv-form {
+    position: absolute;
+    width: 221px;
+    height: 44px;
+    left: 419px;
+    top: 95px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+
+.laptop {
+    height: 970px;
+    background: #1A1625;
+}
+.laptop-content {
+    position: absolute;
+    width: 929px;
+    height: 308px;
+    left: calc(50% - 929px/2 + 4.5px);
+    top: 150px;       
+}
+.laptop-title {
+    position: absolute;
+    width: 243px;
+    height: 61px;
+    left: 0px;
+    top: -34px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    
+}
+.laptop-contact-info {
+    position: absolute;
+    width: 929px;
+    height: 208px;
+    left: calc(50% - 929px/2);
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.laptop-email-header {
+    position: absolute;
+    width: 130px;
+    height: 44px;
+    left: 40px;
+    top: 11px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.laptop-email {
+    position: absolute;
+    width: 225px;
+    height: 44px;
+    left: 190px;
+    top: 11px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    /* Low Contrast */
+
+    color: #6C6C6C;
+}
+.laptop-listserv-header {
+    position: absolute;
+    width: 361px;
+    height: 44px;
+    left: 40px;
+    top: 95px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.laptop-listserv-form {
+    position: absolute;
+    width: 221px;
+    height: 44px;
+    left: 419px;
+    top: 95px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+
+.tablet {
+    height: 970px;
+    background: #1A1625;
+}
+.tablet-content {
+    position: absolute;
+    width: 688px;
+    height: 308px;
+    left: calc(50% - 688px/2);
+    top: 150px;          
+}
+.tablet-title {
+    position: absolute;
+    width: 243px;
+    height: 61px;
+    left: 0px;
+    top: -34px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    
+}
+.tablet-contact-info {
+    position: absolute;
+    width: 688px;
+    height: 208px;
+    left: 0px;
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 37.5px;
+}
+.tablet-email-header {
+    position: absolute;
+    width: 130px;
+    height: 44px;
+    left: 40px;
+    top: 11px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.tablet-email {
+    position: absolute;
+    width: 225px;
+    height: 44px;
+    left: 190px;
+    top: 11px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    /* Low Contrast */
+
+    color: #6C6C6C;
+}
+.tablet-listserv-header {
+    position: absolute;
+    width: 361px;
+    height: 44px;
+    left: 40px;
+    top: 95px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.tablet-listserv-form {
+    position: absolute;
+    width: 221px;
+    height: 44px;
+    left: 419px;
+    top: 95px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+
+.mobile {
+    height: 970px;
+    background: #1A1625;
+}
+.mobile-content {
+    position: absolute;
+    width: 280px;
+    height: 240px;
+    left: calc(50% - 280px/2);
+    top: 150px;                      
+}
+.mobile-title {
+    position: absolute;
+    width: 243px;
+    height: 61px;
+    left: 0px;
+    top: -34px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    
+}
+.mobile-contact-info {
+    position: absolute;
+    width: 280px;
+    height: 140px;
+    left: 0px;
+    top: 100px;
+    
+    /* L2 */
+    
+    background: #211F2A;
+    border-radius: 20px;
+}
+.mobile-email-header {
+    position: absolute;
+    width: 58px;
+    height: 20px;
+    left: 20px;
+    top: 8px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.mobile-email {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 20px;
+    top: 28px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
+.mobile-listserv-header {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 20px;
+    top: 68px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    
+    /* Accent */
+    
+    color: #9A76FF;
+}
+.mobile-listserv-form {
+    position: absolute;
+    width: 99px;
+    height: 20px;
+    left: 20px;
+    top: 88px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    
+    /* Low Contrast */
+    
+    color: #6C6C6C;
+}
