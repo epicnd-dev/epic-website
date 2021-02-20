@@ -50,13 +50,13 @@
 }
 
 .desktop {
-    height: 2439px;
+    height: 2399px;
     background: #1A1625;
 }
 .desktop-content {
     position: absolute;
     width: 1200px;
-    height: 2239px;
+    height: 2199px;
     left: calc(50% - 1200px/2);
     top: 150px;        
 }
@@ -88,7 +88,7 @@
 .desktop-details {
     position: absolute;
     width: 1200px;
-    height: 2139px;
+    height: 2099px;
     left: calc(50% - 1200px/2);
     top: 100px;
     
@@ -100,7 +100,7 @@
 .desktop-status {
     position: absolute;
     width: 1120px;
-    height: 234px;
+    height: 194px;
     left: 40px;
     top: 40px;
     
@@ -148,7 +148,7 @@
     width: 1120px;
     height: 299px;
     left: 40px;
-    top: 324px;
+    top: 284px;
     
     /* L3 */
     
@@ -235,7 +235,7 @@
     width: 1120px;
     height: 319px;
     left: 40px;
-    top: 673px;
+    top: 633px;
     
     /* L3 */
     
@@ -329,7 +329,7 @@
     width: 1120px;
     height: 597px;
     left: 40px;
-    top: 1042px;
+    top: 1002px;
     
     /* L3 */
     
@@ -594,7 +594,7 @@
     width: 1120px;
     height: 410px;
     left: 40px;
-    top: 1689px;
+    top: 1649px;
     
     /* L3 */
     
@@ -628,13 +628,13 @@
 }
 
 .laptop {
-    height: 2569px;
+    height: 2529px;
     background: #1A1625;
 }
 .laptop-content {
     position: absolute;
     width: 920px;
-    height: 2379px;
+    height: 2339px;
     left: calc(50% - 920px/2);
     top: 150px;        
 }
@@ -668,7 +668,7 @@
 .laptop-details {
     position: absolute;
     width: 920px;
-    height: 2279px;
+    height: 2239px;
     left: calc(50% - 920px/2);
     top: 100px;
     
@@ -680,7 +680,7 @@
 .laptop-status {
     position: absolute;
     width: 840px;
-    height: 234px;
+    height: 194px;
     left: 40px;
     top: 40px;
     
@@ -716,19 +716,12 @@
     
     color: #9A76FF;
 }
-.laptop-status-apply {
-    position: absolute;
-    width: 59px;
-    height: 20px;
-    left: 741px;
-    top: 174px;    
-}
 .laptop-company {
     position: absolute;
     width: 840px;
     height: 319px;
     left: 40px;
-    top: 324px;
+    top: 284px;
     
     /* L3 */
     
@@ -815,7 +808,7 @@
     width: 840px;
     height: 339px;
     left: 40px;
-    top: 693px;
+    top: 653px;
     
     /* L3 */
     
@@ -909,7 +902,7 @@
     width: 840px;
     height: 632px;
     left: 40px;
-    top: 1082px;
+    top: 1042px;
     
     /* L3 */
     
@@ -1174,7 +1167,7 @@
     width: 840px;
     height: 490px;
     left: 40px;
-    top: 1749px;
+    top: 1709px;
     
     /* L3 */
     
@@ -1208,13 +1201,13 @@
 }
 
 .tablet {
-    height: 2811px;
+    height: 2732px;
     background: #1A1625;
 }
 .tablet-content {
     position: absolute;
     width: 688px;
-    height: 2621px;
+    height: 2542px;
     left: calc(50% - 688px/2);
     top: 150px;        
 }
@@ -1248,7 +1241,7 @@
 .tablet-details {
     position: absolute;
     width: 688px;
-    height: 2534px;
+    height: 2455px;
     left: calc(50% - 688px/2);
     top: 87px;
     
@@ -1260,7 +1253,7 @@
 .tablet-status {
     position: absolute;
     width: 608px;
-    height: 273px;
+    height: 194px;
     left: 40px;
     top: 40px;
     
@@ -1294,19 +1287,12 @@
     
     color: #9A76FF;
 }
-.tablet-status-apply {
-    position: absolute;
-    width: 59px;
-    height: 20px;
-    left: 509px;
-    top: 218px;    
-}
 .tablet-company {
     position: absolute;
     width: 608px;
     height: 339px;
     left: 40px;
-    top: 363px;
+    top: 284px;
     
     /* L3 */
     
@@ -1393,7 +1379,7 @@
     width: 608px;
     height: 375px;
     left: 40px;
-    top: 752px;
+    top: 673px;
     
     /* L3 */
     
@@ -1487,7 +1473,7 @@
     width: 608px;
     height: 657px;
     left: 40px;
-    top: 1177px;
+    top: 1098px;
     
     /* L3 */
     
@@ -1752,7 +1738,7 @@
     width: 608px;
     height: 610px;
     left: 40px;
-    top: 1884px;
+    top: 1805px;
     
     /* L3 */
     
@@ -1786,13 +1772,13 @@
 }
 
 .mobile {
-    height: 2208px;
+    height: 2152px;
     background: #1A1625;
 }
 .mobile-content {
     position: absolute;
     width: 280px;
-    height: 2048px;
+    height: 1992px;
     left: calc(50% - 280px/2);
     top: 140px;                
 }
@@ -1825,14 +1811,14 @@
 .mobile-details {
     position: absolute;
     width: 280px;
-    height: 1951px;
+    height: 1895px;
     left: calc(50% - 280px/2);
     top: 97px;    
 }
 .mobile-status {
     position: absolute;
     width: 280px;
-    height: 147px;
+    height: 91px;
     left: 0px;
     top: 0px;
     
@@ -1866,19 +1852,12 @@
     
     color: #9A76FF;   
 }
-.mobile-status-apply {
-    position: absolute;
-    width: 59px;
-    height: 20px;
-    left: 211px;
-    top: 117px;    
-}
 .mobile-company {
     position: absolute;
     width: 280px;
     height: 280px;
     left: 0px;
-    top: 167px;
+    top: 111px;
     
     /* L2 */
     
@@ -1963,7 +1942,7 @@
     width: 280px;
     height: 310px;
     left: 0px;
-    top: 467px;
+    top: 411px;
     
     /* L2 */
     
@@ -2054,7 +2033,7 @@
     width: 280px;
     height: 543px;
     left: 0px;
-    top: 797px;
+    top: 741px;
     
     /* L2 */
     
@@ -2314,7 +2293,7 @@
     width: 280px;
     height: 581px;
     left: 0px;
-    top: 1370px;
+    top: 1314px;
     
     /* L3 */
     

@@ -828,13 +828,13 @@
 }
 
 .mobile {
-    height: 1088px;
+    height: 1054px;
     background: #1A1625;
 }
 .mobile-content {
     position: absolute;
     width: 280px;
-    height: 918px;
+    height: 884px;
     left: calc(50% - 280px/2);
     top: 150px;    
 }
@@ -861,7 +861,7 @@
 .mobile-sp21 {
     position: absolute;
     width: 280px;
-    height: 818px;
+    height: 784px;
     left: calc(50% - 280px/2);
     top: 100px;
     
@@ -890,32 +890,12 @@
     
     color: #6C6C6C;
 }
-.mobile-sp21-open {
-    position: absolute;
-    width: 243px;
-    height: 34px;
-    left: 20px;
-    top: 32px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 34px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.015em;
-    
-    /* Accent */
-    
-    color: #9A76FF;        
-}
 .mobile-sp21-projects {
     position: absolute;
     width: 240px;
     height: 690px;
     left: 20px;
-    top: 108px;    
+    top: 74px;    
 }
 .mobile-sp21-ge {
     position: absolute;
