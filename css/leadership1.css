@@ -166,3 +166,233 @@
     color: #6C6C6C;
     margin: 0px;    
 }
+
+.laptop-title {
+    position: absolute;
+    width: 238px;
+    height: 61px;
+    left: calc(50% - 238px/2 - 341px);
+    top: 116px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+
+.laptop-content {
+    position: absolute;
+    width: 920px;
+    left: calc(50% - 238px/2 - 341px);
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.laptop-leader {
+    flex: none;
+    margin: 0px 0px 40px 0px;
+    padding: 40px;
+    border-radius: 40px;
+    background: #211F2A;
+    vertical-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.laptop-leader-image {
+    width: 250px;
+    height: 250px;
+    left: 40px;
+    top: 40px;
+
+    border-radius: 27.7061px;
+}
+
+.laptop-leader-info {
+    position: absolute;
+    width: 552px;
+    left: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px;
+}
+
+.laptop-leader-name-linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.laptop-leader-name {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37.5186px;
+    line-height: 46px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.laptop-leader-linkedin {
+    margin: 0px 0px 0px 11px;
+    width: 22px;
+    height: 22px;
+}
+
+.laptop-leader-title {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.8462px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    margin: 7px 0px 8px 0px;
+}
+
+.laptop-leader-bio {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+    margin: 0px;    
+}
+
+.tablet-title {
+    position: absolute;
+    width: 238px;
+    height: 61px;
+    left: calc(50% - 238px/2 - 226px);
+    top: 116px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+
+.tablet-content {
+    position: absolute;
+    width: 688px;
+    left: calc(50% - 238px/2 - 226px);
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tablet-leader {
+    flex: none;
+    margin: 0px 0px 40px 0px;
+    padding: 40px;
+    border-radius: 40px;
+    background: #211F2A;
+    vertical-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tablet-leader-image {
+    width: 250px;
+    height: 250px;
+    left: 40px;
+    top: 40px;
+
+    border-radius: 27.7061px;
+}
+
+.tablet-leader-info {
+    position: absolute;
+    width: 318px;
+    left: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px;
+}
+
+.tablet-leader-name-linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.tablet-leader-name {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.tablet-leader-linkedin {
+    margin: 0px 0px 0px 11px;
+    width: 22px;
+    height: 22px;
+}
+
+.tablet-leader-title {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    margin: 7px 0px 9px 0px;
+}
+
+.tablet-leader-bio {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+    margin: 0px;    
+}
