@@ -4,1675 +4,6 @@
     font-style: normal;
     font-weight: normal;
 }
-
-.desktop {
-    height: 2179px;
-    
-    background: #1A1625;
-}
-.desktop-content {
-    position: absolute;
-    width: 1199.87px;
-    height: 1978.62px;
-    left: calc(50% - 1199.87px/2 - 0.07px);
-    top: 150px;
-}
-.desktop-title {
-    position: absolute;
-    width: 238px;
-    height: 61px;
-    left: calc(50% - 238px/2 - 480.93px);
-    top: -34px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 61px;
-    /* identical to box height */
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;   
-}
-.desktop-brooke-card {
-    position: absolute;
-    width: 1199.87px;
-    height: 334.12px;
-    left: 0px;
-    top: 100px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.desktop-brooke-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2);
-    border-radius: 27.7061px;
-}
-.desktop-brooke-name {
-    position: absolute;
-    width: 237px;
-    height: 46px;
-    left: 328.12px;
-    top: 48px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;   
-}
-.desktop-brooke-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 579.63px;
-    top: 94.34px;
-}
-.desktop-brooke-position {
-    position: absolute;
-    width: 110px;
-    height: 32px;
-    left: 328.12px;
-    top: 102.34px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;    
-}
-.desktop-brooke-desc {
-    position: absolute;
-    width: 827.91px;
-    height: 81px;
-    left: 328.12px;
-    top: 147.67px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;    
-}
-.desktop-miranda-card {
-    position: absolute;
-    width: 1199.87px;
-    height: 334.12px;
-    left: 0px;
-    top: 486.12px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.desktop-miranda-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2);
-    border-radius: 27.7061px;
-}
-.desktop-miranda-name {
-    position: absolute;
-    width: 301px;
-    height: 46px;
-    left: 328.12px;
-    top: 61.88px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;          
-}
-.desktop-miranda-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 643.63px;
-    top: 108.21px;
-}
-.desktop-miranda-position {
-    position: absolute;
-    width: 307px;
-    height: 32px;
-    left: 328.12px;
-    top: 116.21px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;       
-}
-.desktop-miranda-desc {
-    position: absolute;
-    width: 827.91px;
-    height: 81px;
-    left: 328.12px;
-    top: 161.67px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;      
-}
-.desktop-jacob-card {
-    position: absolute;
-    width: 1199.87px;
-    height: 334.12px;
-    left: 0px;
-    top: 872.25px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.desktop-jacob-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2);
-    border-radius: 27.7061px;
-}
-.desktop-jacob-name {
-    position: absolute;
-    width: 238px;
-    height: 46px;
-    left: 328.12px;
-    top: 61.75px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;
-      
-}
-.desktop-jacob-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 580.63px;
-    top: 108.09px;       
-}
-.desktop-jacob-position {
-    position: absolute;
-    width: 307px;
-    height: 32px;
-    left: 328.12px;
-    top: 116.09px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;      
-}
-.desktop-jacob-desc {
-    position: absolute;
-    width: 827.91px;
-    height: 54px;
-    left: 328.12px;
-    top: 161.43px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;    
-}
-.desktop-eric-card {
-    position: absolute;
-    width: 1199.87px;
-    height: 334.12px;
-    left: 0px;
-    top: 1258.37px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.desktop-eric-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2);
-    border-radius: 27.7061px;
-}
-.desktop-eric-name {
-    position: absolute;
-    width: 248px;
-    height: 46px;
-    left: 328.12px;
-    top: 47.63px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF; 
-}
-.desktop-eric-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 590.63px;
-    top: 93.97px;
-}
-.desktop-eric-position {
-    position: absolute;
-    width: 201px;
-    height: 32px;
-    left: 328.12px;
-    top: 101.97px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;          
-}
-.desktop-eric-desc {
-    position: absolute;
-    width: 827.91px;
-    height: 81px;
-    left: 328.12px;
-    top: 147.3px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;        
-}
-.desktop-gavin-card {
-    position: absolute;
-    width: 1199.87px;
-    height: 334.12px;
-    left: 0px;
-    top: 1644.5px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.desktop-gavin-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2);
-    border-radius: 27.7061px;
-}
-.desktop-gavin-name {
-    position: absolute;
-    width: 203px;
-    height: 46px;
-    left: 328.12px;
-    top: 48.5px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;
-      
-}
-.desktop-gavin-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 545.63px;
-    top: 94.84px;
-}
-.desktop-gavin-position {
-    position: absolute;
-    width: 135px;
-    height: 32px;
-    left: 328.12px;
-    top: 102.84px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;        
-}
-.desktop-gavin-desc {
-    position: absolute;
-    width: 827.91px;
-    height: 81px;
-    left: 328.12px;
-    top: 148.18px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;        
-}
-
-.laptop {
-    height: 2178px;
-    
-    background: #1A1625;
-}
-.laptop-content {
-    position: absolute;
-    width: 920px;
-    height: 1978px;
-    left: calc(50% - 920px/2);
-    top: 150px;    
-}
-.laptop-title {
-    position: absolute;
-    width: 238px;
-    height: 61px;
-    left: calc(50% - 238px/2 - 341px);
-    top: -34px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 61px;
-    /* identical to box height */
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;      
-}
-.laptop-brooke-card {
-    position: absolute;
-    width: 920px;
-    height: 334px;
-    left: calc(50% - 920px/2);
-    top: 100px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.laptop-brooke-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.06px);
-    border-radius: 27.7061px;
-}
-.laptop-brooke-name {
-    position: absolute;
-    width: 237px;
-    height: 46px;
-    left: 328.12px;
-    top: 35px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;      
-}
-.laptop-brooke-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 579.63px;
-    top: 81.34px;    
-}
-.laptop-brooke-position {
-    position: absolute;
-    width: 110px;
-    height: 32px;
-    left: 328.12px;
-    top: 91.34px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;
-        
-}
-.laptop-brooke-desc {
-    position: absolute;
-    width: 549px;
-    height: 108px;
-    left: 328.12px;
-    top: 136.67px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;    
-}
-.laptop-miranda-card {
-    position: absolute;
-    width: 920px;
-    height: 334px;
-    left: calc(50% - 920px/2);
-    top: 486px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.laptop-miranda-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.06px);
-    border-radius: 27.7061px;
-}
-.laptop-miranda-name {
-    position: absolute;
-    width: 301px;
-    height: 46px;
-    left: 328px;
-    top: 48px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;             
-}
-.laptop-miranda-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 643.63px;
-    top: 94.56px;    
-}
-.laptop-miranda-position {
-    position: absolute;
-    width: 302px;
-    height: 32px;
-    left: 328.12px;
-    top: 104.56px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;          
-}
-.laptop-miranda-desc {
-    position: absolute;
-    width: 549px;
-    height: 81px;
-    left: 328.12px;
-    top: 147.9px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;          
-}
-.laptop-jacob-card {
-    position: absolute;
-    width: 920px;
-    height: 334px;
-    left: calc(50% - 920px/2);
-    top: 872px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.laptop-jacob-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.31px);
-    
-    background: url(jake.jpg);
-    border-radius: 27.7061px;
-}
-.laptop-jacob-name {
-    position: absolute;
-    width: 238px;
-    height: 46px;
-    left: 328.12px;
-    top: 48.22px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;
-}
-.laptop-jacob-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 580.63px;
-    top: 94.56px;       
-}
-.laptop-jacob-position {
-    position: absolute;
-    width: 307px;
-    height: 32px;
-    left: 328.12px;
-    top: 104.56px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;            
-}
-.laptop-jacob-desc {
-    position: absolute;
-    width: 549px;
-    height: 81px;
-    left: 328.12px;
-    top: 147.9px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;        
-}
-.laptop-eric-card {
-    position: absolute;
-    width: 920px;
-    height: 334px;
-    left: calc(50% - 920px/2);
-    top: 1258px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.laptop-eric-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.43px);
-    
-    background: url(eric.jpg);
-    border-radius: 27.7061px;
-}
-.laptop-eric-name {
-    position: absolute;
-    width: 248px;
-    height: 46px;
-    left: 328.12px;
-    top: 34.72px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF; 
-}
-.laptop-eric-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 590.63px;
-    top: 81.06px;
-}
-.laptop-eric-position {
-    position: absolute;
-    width: 197px;
-    height: 32px;
-    left: 328.12px;
-    top: 91.06px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;         
-}
-.laptop-eric-desc {
-    position: absolute;
-    width: 549px;
-    height: 108px;
-    left: 328.12px;
-    top: 134.4px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;            
-}
-.laptop-gavin-card {
-    position: absolute;
-    width: 920px;
-    height: 334px;
-    left: calc(50% - 920px/2);
-    top: 1644px;
-    
-    background: #211F2A;
-    border-radius: 37.5186px;
-}
-.laptop-gavin-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.56px);
-    border-radius: 27.7061px;
-}
-.laptop-gavin-name {
-    position: absolute;
-    width: 203px;
-    height: 46px;
-    left: 328.12px;
-    top: 21.22px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 37.5186px;
-    line-height: 46px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;   
-}
-.laptop-gavin-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 545.63px;
-    top: 67.56px;
-}
-.laptop-gavin-position {
-    position: absolute;
-    width: 131px;
-    height: 32px;
-    left: 328.12px;
-    top: 77.56px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.8462px;
-    line-height: 32px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;           
-}
-.laptop-gavin-desc {
-    position: absolute;
-    width: 549px;
-    height: 135px;
-    left: 328.12px;
-    top: 120.9px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;           
-}
-
-.tablet {
-    height: 2120px;
-    
-    background: #1A1625;
-}
-.tablet-content {
-    position: absolute;
-    width: 690px;
-    height: 1930px;
-    left: calc(50% - 690px/2 + 1px);
-    top: 150px;    
-}
-.tablet-title {
-    position: absolute;
-    width: 238px;
-    height: 61px;
-    left: calc(50% - 238px/2 - 226px);
-    top: -34px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 61px;
-    /* identical to box height */
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;      
-}
-.tablet-brooke-card {
-    position: absolute;
-    width: 688px;
-    height: 334px;
-    left: calc(50% - 688px/2 - 1px);
-    top: 100px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.tablet-brooke-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.06px);
-    border-radius: 25px;
-}
-.tablet-brooke-name {
-    position: absolute;
-    width: 202px;
-    height: 39px;
-    left: 328.12px;
-    top: 49px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;  
-}
-.tablet-brooke-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 545px;
-    top: 85px;
-}
-.tablet-brooke-position {
-    position: absolute;
-    width: 102px;
-    height: 29px;
-    left: 328.12px;
-    top: 100px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;    
-}
-.tablet-brooke-desc {
-    position: absolute;
-    height: 100px;
-    left: 328px;
-    right: 40px;
-    top: 148px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;    
-}
-.tablet-miranda-card {
-    position: absolute;
-    width: 688px;
-    height: 334px;
-    left: calc(50% - 688px/2 + 1px);
-    top: 474px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.tablet-miranda-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.06px);
-    border-radius: 25px;
-}
-.tablet-miranda-name {
-    position: absolute;
-    width: 257px;
-    height: 39px;
-    left: 328.12px;
-    top: 69px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;            
-}
-.tablet-miranda-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 600px;
-    top: 105px;
-}
-.tablet-miranda-position {
-    position: absolute;
-    width: 281px;
-    height: 29px;
-    left: 328.12px;
-    top: 120px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;           
-}
-.tablet-miranda-desc {
-    position: absolute;
-    height: 60px;
-    left: 328px;
-    right: 40px;
-    top: 168px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;          
-}
-.tablet-jacob-card {
-    position: absolute;
-    width: 688px;
-    height: 334px;
-    left: calc(50% - 688px/2 + 1px);
-    top: 848px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.tablet-jacob-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.31px);
-    border-radius: 25px;
-}
-.tablet-jacob-name {
-    position: absolute;
-    width: 203px;
-    height: 39px;
-    left: 328.12px;
-    top: 59px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;    
-}
-.tablet-jacob-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 546px;
-    top: 95px;           
-}
-.tablet-jacob-position {
-    position: absolute;
-    width: 285px;
-    height: 29px;
-    left: 328.12px;
-    top: 110px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;     
-}
-.tablet-jacob-desc {
-    position: absolute;
-    height: 80px;
-    left: 328px;
-    right: 40px;
-    top: 158px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;        
-}
-.tablet-eric-card {
-    position: absolute;
-    width: 688px;
-    height: 334px;
-    left: calc(50% - 688px/2 + 1px);
-    top: 1222px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.tablet-eric-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.43px);
-    border-radius: 25px;
-}
-.tablet-eric-name {
-    position: absolute;
-    width: 212px;
-    height: 39px;
-    left: 328.12px;
-    top: 49px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;    
-}
-.tablet-eric-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 554px;
-    top: 85px;    
-}
-.tablet-eric-position {
-    position: absolute;
-    width: 183px;
-    height: 29px;
-    left: 328.12px;
-    top: 100px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;
-              
-}
-.tablet-eric-desc {
-    position: absolute;
-    height: 100px;
-    left: 328px;
-    right: 40px;
-    top: 148px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;         
-}
-.tablet-gavin-card {
-    position: absolute;
-    width: 688px;
-    height: 334px;
-    left: calc(50% - 688px/2 + 1px);
-    top: 1596px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.tablet-gavin-photo {
-    position: absolute;
-    width: 250.12px;
-    height: 250.12px;
-    left: 43px;
-    top: calc(50% - 250.12px/2 + 0.56px);
-    border-radius: 25px;
-}
-.tablet-gavin-name {
-    position: absolute;
-    width: 175px;
-    height: 39px;
-    left: 328.12px;
-    top: 49px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;    
-}
-.tablet-gavin-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 516px;
-    top: 85px;
-}
-.tablet-gavin-position {
-    position: absolute;
-    width: 122px;
-    height: 29px;
-    left: 328.12px;
-    top: 100px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;            
-}
-.tablet-gavin-desc {
-    position: absolute;
-    height: 100px;
-    left: 328px;
-    right: 40px;
-    top: 148px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;        
-}
-
-.mobile {
-    height: 2850px;
-    
-    background: #1A1625;
-}
-.mobile-content {
-    position: absolute;
-    width: 280px;
-    height: 2680px;
-    left: calc(50% - 280px/2);
-    top: 150px;    
-}
-.mobile-title {
-    position: absolute;
-    width: 172px;
-    height: 44px;
-    left: 0;
-    top: -34px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 44px;
-    /* identical to box height */
-    
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;
-    
-}
-.mobile-brooke-card {
-    position: absolute;
-    width: 280px;
-    height: 475px;
-    left: calc(50% - 280px/2);
-    top: 100px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.mobile-brooke-photo {
-    position: absolute;
-    width: 240px;
-    height: 240px;
-    left: 20px;
-    top: 20px;
-    border-radius: 20px;
-}
-.mobile-brooke-name {
-    position: absolute;
-    width: 202px;
-    height: 28px;
-    left: 20px;
-    top: 242px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 88%;
-    /* or 28px */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;       
-}
-.mobile-brooke-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 237.88px;
-    top: 270px;
-}
-.mobile-brooke-position {
-    position: absolute;
-    width: 94px;
-    height: 27px;
-    left: 20px;
-    top: 281px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;        
-}
-.mobile-brooke-desc {
-    position: absolute;
-    height: 120px;
-    left: 20px;
-    right: 20px;
-    top: 318px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;       
-}
-.mobile-miranda-card {
-    position: absolute;
-    width: 280px;
-    height: 490px;
-    left: calc(50% - 280px/2);
-    top: 595px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.mobile-miranda-photo {
-    position: absolute;
-    width: 240px;
-    height: 240px;
-    left: 20px;
-    top: calc(50% - 240px/2 - 105px);
-    border-radius: 25px;
-}
-.mobile-miranda-name {
-    position: absolute;
-    width: 133px;
-    height: 56px;
-    left: 21px;
-    top: 242px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 88%;
-    /* or 28px */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;          
-}
-.mobile-miranda-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 238px;
-    top: 271px;    
-}
-.mobile-miranda-position {
-    position: absolute;
-    width: 239px;
-    height: 54px;
-    left: 21px;
-    top: 309px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;       
-}
-.mobile-miranda-desc {
-    position: absolute;
-    height: 80px;
-    left: 20px;
-    right: 20px;
-    top: 373px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;
-}
-.mobile-jacob-card {
-    position: absolute;
-    width: 280px;
-    height: 497px;
-    left: calc(50% - 280px/2);
-    top: 1105px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.mobile-jacob-photo {
-    position: absolute;
-    width: 240px;
-    height: 240px;
-    left: 20px;
-    top: calc(50% - 240px/2 - 108.5px);
-    border-radius: 25px;
-}
-.mobile-jacob-name {
-    position: absolute;
-    width: 203px;
-    height: 39px;
-    left: 20px;
-    top: 242px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;
-}
-.mobile-jacob-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 237.88px;
-    top: 277px;           
-}
-.mobile-jacob-position {
-    position: absolute;
-    width: 239px;
-    height: 54px;
-    left: 20px;
-    top: 292px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;    
-}
-.mobile-jacob-desc {
-    position: absolute;
-    height: 100px;
-    left: 20px;
-    right: 20px;
-    top: 366px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;        
-}
-.mobile-eric-card {
-    position: absolute;
-    width: 280px;
-    height: 530px;
-    left: calc(50% - 280px/2);
-    top: 1622px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.mobile-eric-photo {
-    position: absolute;
-    width: 240px;
-    height: 240px;
-    left: 20px;
-    top: calc(50% - 240px/2 - 125px);
-    border-radius: 25px;
-}
-.mobile-eric-name {
-    position: absolute;
-    width: 203px;
-    height: 56px;
-    left: 20px;
-    top: 249px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 88%;
-    /* or 28px */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;        
-}
-.mobile-eric-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 238px;
-    top: 277px;
-}
-.mobile-eric-position {
-    position: absolute;
-    width: 168px;
-    height: 27px;
-    left: 21px;
-    top: 319px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;             
-}
-.mobile-eric-desc {
-    position: absolute;
-    height: 140px;
-    left: 20px;
-    right: 20px;
-    top: 359px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;          
-}
-.mobile-gavin-card {
-    position: absolute;
-    width: 280px;
-    height: 508px;
-    left: calc(50% - 280px/2);
-    top: 2172px;
-    
-    background: #211F2A;
-    border-radius: 25px;
-}
-.mobile-gavin-photo {
-    position: absolute;
-    width: 240px;
-    height: 240px;
-    left: 20px;
-    top: calc(50% - 240px/2 - 114px);
-    border-radius: 25px;
-}
-.mobile-gavin-name {
-    position: absolute;
-    width: 175px;
-    height: 39px;
-    left: 21px;
-    top: 242px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 39px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;     
-}
-.mobile-gavin-linkedin {
-    position: absolute;
-    width: 22.17px;
-    height: 22.17px;
-    left: 237.88px;
-    top: 277px;
-}
-.mobile-gavin-position {
-    position: absolute;
-    width: 112px;
-    height: 27px;
-    left: 21px;
-    top: 292px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 27px;
-    /* identical to box height */
-    
-    letter-spacing: 0.015em;
-    
-    color: #FFFFFF;        
-}
-.mobile-gavin-desc {
-    position: absolute;
-    height: 140px;
-    left: 20px;
-    right: 20px;
-    top: 337px;
-    
-    font-family: Legend M54;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.015em;
-    
-    color: #6C6C6C;            
-}
-
 @media screen and (max-width: 767px) {
 .desktop { 
     display: none;
@@ -1716,4 +47,446 @@
 .laptop { 
     display: none;
     }
+}
+
+
+.desktop-title {
+    position: absolute;
+    width: 238px;
+    height: 61px;
+    left: calc(50% - 238px/2 - 481px);
+    top: 116px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+
+.desktop-content {
+    position: absolute;
+    width: 1200px;
+    left: calc(50% - 1199.87px/2 - 0.07px);
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.desktop-leader {
+    flex: none;
+    margin: 0px 0px 40px 0px;
+    padding: 40px;
+    border-radius: 40px;
+    background: #211F2A;
+    vertical-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.desktop-leader-image {
+    width: 250px;
+    height: 250px;
+    left: 40px;
+    top: 40px;
+
+    border-radius: 27.7061px;
+}
+
+.desktop-leader-info {
+    position: absolute;
+    width: 830px;
+    left: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px;
+}
+
+.desktop-leader-name-linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.desktop-leader-name {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37.5186px;
+    line-height: 46px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.desktop-leader-linkedin {
+    margin: 0px 0px 0px 11px;
+    width: 22px;
+    height: 22px;
+}
+
+.desktop-leader-title {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.8462px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    margin: 7px 0px 8px 0px;
+}
+
+.desktop-leader-bio {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+    margin: 0px;    
+}
+
+.laptop-title {
+    position: absolute;
+    width: 238px;
+    height: 61px;
+    left: calc(50% - 238px/2 - 341px);
+    top: 116px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+
+.laptop-content {
+    position: absolute;
+    width: 920px;
+    left: calc(50% - 238px/2 - 341px);
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.laptop-leader {
+    flex: none;
+    margin: 0px 0px 40px 0px;
+    padding: 40px;
+    border-radius: 40px;
+    background: #211F2A;
+    vertical-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.laptop-leader-image {
+    width: 250px;
+    height: 250px;
+    left: 40px;
+    top: 40px;
+
+    border-radius: 27.7061px;
+}
+
+.laptop-leader-info {
+    position: absolute;
+    width: 552px;
+    left: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px;
+}
+
+.laptop-leader-name-linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.laptop-leader-name {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37.5186px;
+    line-height: 46px;
+    /* identical to box height */
+
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.laptop-leader-linkedin {
+    margin: 0px 0px 0px 11px;
+    width: 22px;
+    height: 22px;
+}
+
+.laptop-leader-title {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.8462px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    margin: 7px 0px 8px 0px;
+}
+
+.laptop-leader-bio {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+    margin: 0px;    
+}
+
+.tablet-title {
+    position: absolute;
+    width: 238px;
+    height: 61px;
+    left: calc(50% - 238px/2 - 226px);
+    top: 116px;
+
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+}
+
+.tablet-content {
+    position: absolute;
+    width: 688px;
+    left: calc(50% - 238px/2 - 226px);
+    top: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tablet-leader {
+    flex: none;
+    margin: 0px 0px 40px 0px;
+    padding: 40px;
+    border-radius: 40px;
+    background: #211F2A;
+    vertical-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tablet-leader-image {
+    width: 250px;
+    height: 250px;
+    left: 40px;
+    top: 40px;
+
+    border-radius: 27.7061px;
+}
+
+.tablet-leader-info {
+    position: absolute;
+    width: 318px;
+    left: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 0px;
+}
+
+.tablet-leader-name-linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+}
+
+.tablet-leader-name {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.tablet-leader-linkedin {
+    margin: 0px 0px 0px 11px;
+    width: 22px;
+    height: 22px;
+}
+
+.tablet-leader-title {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    margin: 7px 0px 9px 0px;
+}
+
+.tablet-leader-bio {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+    margin: 0px;    
+}
+
+.mobile-title {
+    position: absolute;
+    width: 172px;
+    height: 44px;
+    left: calc(50% - 172px/2 - 54px);
+    top: 124px;
+    
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;    
+}
+
+.mobile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 280px;
+    left: calc(50% - 280px/2);
+    top: 250px;
+}
+.mobile-leader {
+    flex: none;
+    margin: 0px 0px 20px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #211F2A;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mobile-leader-image {
+    width: 240px;
+    height: 240px;
+    left: 40px;
+    top: 40px;
+
+    border-radius: 20px;
+    margin: 0px;
+}
+
+.mobile-leader-name {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 88%;
+    /* or 28px */
+
+    letter-spacing: 0.015em;
+
+    color: #FFFFFF;
+    margin: 10px 0px 5px 0px;
+}
+
+.mobile-leader-title {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    letter-spacing: 0.015em;
+    
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.mobile-leader-bio {
+    font-family: Legend M54;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    
+    color: #6C6C6C;
+    margin: 5px 0px 0px 0px;
 }
